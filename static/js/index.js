@@ -48,8 +48,8 @@ map.on('click', onMapClick);
 
 
 function build_data() {
-    let from = control.from_display.textContent
-    let to = control.to_display.textContent
+    let from = control.from_slider.value
+    let to = control.to_slider.value
     if (marker) {
         let target_point = marker.getLatLng()
         let data = {
