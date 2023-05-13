@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 <head>
     <meta charset="UTF-8">
     <title>Twister</title>
     <script src="{{ url_for('static', filename='js/index.js') }}"
             type="module"
     ></script>
-    <h1> Twister </h1>
+    <h1> Twister</h1>
+    <div class="map">
+        {% include "map.html" %}
+    </div>
     <div class="controls">
         {% include "controls.html" %}
     </div>

@@ -1,7 +1,7 @@
 export class Transfer {
     constructor(){
         this.xhr = null
-        this.data_grabbed = null
+//        this.data_grabbed = null
 //        this.dataToSend = null
 //        this.data_grabbed = document.getElementById("data_grabbed")
     }
@@ -23,7 +23,7 @@ export class Transfer {
         // Check response is ready or not
         if (this.xhr.readyState == 4 && this.xhr.status == 200) {
             console.log("User data received!");
-            console.log(this.xhr.response)
+            console.log(this.xhr.response) //This is what pulls it out
 //            let dataDiv = document.getElementById('data_grabbed');
             // Set current data text
 //            dataDiv.innerHTML = this.xhr.responseText;
