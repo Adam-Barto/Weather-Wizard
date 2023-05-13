@@ -34,6 +34,8 @@ export class Transfer {
         if (this.xhr.readyState == 4 && this.xhr.status == 201) {
             console.log("Data creation response received!");
             this.getData();
+            let dataDiv = document.getElementById('talk');
+            dataDiv.innerHTML = this.xhr.responseText;
 
 //            let dataDiv = document.getElementById('sent-data-container');
             // Set current data text
