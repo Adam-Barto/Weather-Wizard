@@ -24,9 +24,9 @@ export class Transfer {
         if (this.xhr.readyState == 4 && this.xhr.status == 200) {
             console.log("User data received!");
             console.log(this.xhr.response) //This is what pulls it out
-//            let dataDiv = document.getElementById('data_grabbed');
+            let dataDiv = document.getElementById('talk');
             // Set current data text
-//            dataDiv.innerHTML = this.xhr.responseText;
+            dataDiv.innerHTML = this.xhr.responseText;
         }
     }
     sendDataCallback(){
