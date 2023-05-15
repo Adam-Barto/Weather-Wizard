@@ -6,4 +6,4 @@ if __name__ == '__main__':
     #address = input('Enter your address/location: ')
     #dataframe.get_geolocation(address)
     #print(dataframe.get_odds())
-    print(dataframe.get_oddsV2(11,12, 39.1, -89.3))
+    print(dataframe.get_oddsV2(9,5, 39.1, -89.3))
