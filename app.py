@@ -27,7 +27,7 @@ def controls():
     print('controls reached...')
     if request.method == 'GET':
         print('Get data')
-        return df.get_odds(brain, from_month=from_month, to_month=to_month, lat=lat, lon=lng)
+        return df.get_oddsV2(brain, from_month=from_month, to_month=to_month, lat=lat, lon=lng)
     #     Give me the Data
     if request.method == 'POST':
         received_data = request.get_json()
@@ -42,7 +42,7 @@ def controls():
         lat = float(message['lat'])
         lng = float(message['lng'])
         print(return_data)
-        return flask.Response(response=df.get_odds(brain, from_month=from_month, to_month=to_month, lat=lat, lon=lng), status=201)
+        return flask.Response(response=df.get_oddsV2(brain, from_month=from_month, to_month=to_month, lat=lat, lon=lng), status=201)
 
 
 if __name__ == "__main__":
