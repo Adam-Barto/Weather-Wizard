@@ -68,3 +68,8 @@ input[type="range"] {
   height: 0;
   z-index: 1;
 }
+
+output {
+text-align: center;
+
+}
