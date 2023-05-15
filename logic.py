@@ -34,7 +34,7 @@ class df:
                 print(f'Timed out after {current_attempt} call(s), retrying')
         raise Exception('FAILED AFTER 3 CALLS')
     def get_oddsV2(self, to_month, from_month, lat, lon):
-        filtered_df = self.df[(self.df['slat']>=lat - .5) & (self.df['slat']<= lat + .5) & (self.df['slon']>=lon - .5) & (self.df['slon']<= lon + .5)]
+        filtered_df = self.df[(self.df['slat']>=lat - 1) & (self.df['slat']<= lat + 1) & (self.df['slon']>=lon - 1) & (self.df['slon']<= lon + 1)]
         filtered_df2 = filtered_df[(filtered_df['mo'] <= to_month) & (filtered_df['mo'] >= from_month)]
         print(f'the numerator is ' + str(len(filtered_df2)))
         print(f'the denominator is ' + str(len(filtered_df)))
