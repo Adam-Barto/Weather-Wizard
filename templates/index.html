@@ -7,19 +7,20 @@
     <script src="{{ url_for('static', filename='js/index.js') }}"
             type="module"
     ></script>
-    <h1> Twister</h1>
+    <h1> EF-None</h1>
     <div class="map">
         {% include "map.html" %}
     </div>
     <div class="controls">
         {% include "controls.html" %}
     </div>
-    <div class="button">
-        <input type="submit" id="submit">
-    </div>
     <div class="feedback">
         {% include "datapage.html" %}
     </div>
+    <div class="button">
+        <input type="submit" id="submit" value="Calculate">
+    </div>
+
 
 </head>
 </html>

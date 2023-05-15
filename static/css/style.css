@@ -7,8 +7,16 @@ h1 {
   text-align: center;
 }
 
-.button {
-text-align: center;
+#submit {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 19px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
 
 }
 
