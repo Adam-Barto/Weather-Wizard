@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-<head>
+<body>
     <meta charset="UTF-8">
     <title>EF-None</title>
     <script src="{{ url_for('static', filename='js/index.js') }}"
             type="module"
     ></script>
-    <h1> EF-None</h1>
+    <div id="topBlackBar"/>
+    <h1>EF-None</h1>
     <div class="map">
         {% include "map.html" %}
     </div>
@@ -22,5 +23,5 @@
     </div>
 
 
-</head>
+</body>
 </html>

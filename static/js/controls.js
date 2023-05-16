@@ -7,7 +7,7 @@ export class Controls {
         this.months = [0, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         this.from_slider.oninput = () => this.controlFromSlider(this.from_slider, this.to_slider);
         this.to_slider.oninput = () => this.controlToSlider(this.from_slider, this.to_slider);
-        this.fillSlider(this.from_slider, this.to_slider, '#C6C6C6', '#25daa5', this.to_slider)
+        this.fillSlider(this.from_slider, this.to_slider, '#0066cc', '#25daa5', this.to_slider)
         this.setToggleAccessible(this.to_slider)
     }
 
@@ -16,11 +16,11 @@ export class Controls {
     }
 
     controlFromSlider(fromSlider, toSlider) {
-      this.fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+      this.fillSlider(fromSlider, toSlider, '#0066cc', '#25daa5', toSlider);
     }
 
     controlToSlider(fromSlider, toSlider) {
-      this.fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+      this.fillSlider(fromSlider, toSlider, '#0066cc', '#25daa5', toSlider);
       this.setToggleAccessible(toSlider);
     }
 
