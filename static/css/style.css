@@ -28,8 +28,21 @@ h1 {
 
 }
 
+#submit:hover {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04446D;
+  color: white;
+  padding: 19px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
 #talk {
 text-align: center;
 font-size: 40px;
-
+margin:0;
 }
