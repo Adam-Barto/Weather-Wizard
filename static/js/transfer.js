@@ -25,6 +25,7 @@ export class Transfer {
             console.log("User data received!");
             console.log(this.xhr.response) //This is what pulls it out
             let dataDiv = document.getElementById('talk');
+            dataDiv.style.color = "#000"
             // Set current data text
             dataDiv.innerHTML = this.xhr.responseText;
         }
