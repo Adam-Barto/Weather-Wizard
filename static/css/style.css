@@ -9,6 +9,7 @@ body {
 }
 h1 {
   color: white;
+  font-size: 40px;
   margin:0;
   text-align: center;
   background-color: #0066cc;
@@ -21,7 +22,7 @@ h1 {
   border: none;
   background-color: #0066cc;
   color: white;
-  padding: 19px 28px;
+  padding: 10px 28px;
   font-size: 40px;
   cursor: pointer;
   text-align: center;
@@ -34,7 +35,6 @@ h1 {
   border: none;
   background-color: #04446D;
   color: white;
-  padding: 19px 28px;
   font-size: 40px;
   cursor: pointer;
   text-align: center;
@@ -43,6 +43,9 @@ h1 {
 
 #talk {
 text-align: center;
-font-size: 40px;
-margin:0;
+margin-right: 30%;
+margin-left: 30%;
+font-size: 50px;
+background-color: #E2E3E5;
+border: 10px solid #E2E3E5;
 }

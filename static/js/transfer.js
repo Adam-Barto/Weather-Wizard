@@ -37,7 +37,8 @@ export class Transfer {
             this.getData();
             let dataDiv = document.getElementById('talk');
             dataDiv.innerHTML = this.xhr.responseText;
-
+            dataDiv.style.backgroundColor = "#E2E3E5"
+            dataDiv.style.border = "#E2E3E5"
 //            let dataDiv = document.getElementById('sent-data-container');
             // Set current data text
 //            dataDiv.innerHTML = xhr.responseText;
