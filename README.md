@@ -1,2 +1,12 @@
 # Weather-Wizard
 A personal copy of the group project [EF-None](https://github.com/Zip-Final/EF-None/tree/main) to experiment with adding additional features.
+
+Tornados come from: 
+Thunderstorms 
+ - Supercells
+ - High force winds
+ - Rising air? Condensation, Updrafts of air, Temperature change from bottom to top?
+ - Meso-cyclone
+ - Rear Flank Downdraft
+
+So by tracking air movement and temperature should be able to figure out the chance of a tornado from those factors.
