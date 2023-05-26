@@ -1,5 +1,7 @@
 # Weather-Wizard
-A personal copy of the group project [EF-None](https://github.com/Zip-Final/EF-None/tree/main) to experiment with adding additional features.
+A spin of the group project [EF-None](https://github.com/Zip-Final/EF-None/tree/main) to experiment with adding additional features.
+
+Secondary goal is to practice with manipulating datasets and the logic beyond the front end.
 
 Tornados come from: 
 Thunderstorms 
